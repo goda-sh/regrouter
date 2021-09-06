@@ -2,7 +2,7 @@ package regrouter
 
 import "fmt"
 
-// Params hold the HTTP params
+// Params holds the HTTP params
 type Params struct {
 	Values map[string]string
 }

@@ -138,7 +138,7 @@ func (rr *RegRouter) Static(path string, pattern string) {
 	}, false)
 }
 
-// Params is a helper to get request paramaters
+// Params is a helper to get request parameters
 func (rr *RegRouter) Params(r *http.Request) Params {
 	return r.Context().Value(rr.CTX).(Params)
 }
